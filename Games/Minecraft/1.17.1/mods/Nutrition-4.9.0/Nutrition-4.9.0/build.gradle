@@ -1,0 +1,63 @@
+buildscript {
+	repositories {
+		jcenter()
+		maven { url = "http://files.minecraftforge.net/maven" }
+	}
+	dependencies {
+		classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+	}
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+
+// Link properties file (variables now accessible as config.var)
+ext.configFile = file "gradle.properties"
+configFile.withReader {
+	def prop = new Properties()
+	prop.load(it)
+	project.ext.config = new ConfigSlurper().parse prop
+}
+
+version = config.minecraft_version + "-" + config.mod_version
+group = "ca.wescook.nutrition"
+archivesBaseName = "Nutrition"
+
+sourceCompatibility = targetCompatibility = "1.8" // Need this here so eclipse task generates correctly.
+compileJava {
+	sourceCompatibility = targetCompatibility = "1.8"
+}
+
+minecraft {
+	version = config.minecraft_version + "-" + config.forge_version
+	runDir = "run"
+	mappings = config.mappings
+
+	// Replace @VERSION@ in Nutrition.java with mod version from gradle.properties
+	replace '@VERSION@', config.mod_version
+	replaceIn 'Nutrition.java'
+}
+
+dependencies {
+}
+
+processResources {
+	// This will ensure that this task is redone when the versions change.
+	inputs.property "version", project.version
+	inputs.property "mcversion", project.minecraft.version
+
+	// Replace stuff in mcmod.info, nothing else
+	from(sourceSets.main.resources.srcDirs) {
+		include 'mcmod.info'
+
+		// Replace version and mcversion
+		expand 'version':project.version, 'mcversion':project.minecraft.version
+	}
+
+	// Copy everything else that's not the mcmod.info
+	from(sourceSets.main.resources.srcDirs) {
+		exclude 'mcmod.info'
+	}
+}
+
+// Note: If resources are not loading in IntelliJ, switch runs from "Gradle" to "IntelliJ Idea"
+// Settings > Build, Execution, Deployment > Build Tools > Gradle
