@@ -1,0 +1,47 @@
+Tải minecraft: https://tlauncher.org/en/
+Tải VPN: https://www.radmin-vpn.com/
+
+windown + R
+%appdata%
+Tạo 2 thư mục là mods và shaderpacks
+
+Tải lần lượt cá file theo đường link và chọn version cần thiết:
+
+1. OptiFine: https://optifine.net/downloads
+2. Minecraft Forge: https://files.minecraftforge.net/net/minecraftforge/forge/
+
+3. OptiForge: https://www.curseforge.com/minecraft/mc-mods/optiforge/files
+
+4. Các trang web tải mods và shader, resourcePack:
+https://creatorlabs.net/
+https://www.curseforge.com/
+https://shadersmods.com/
+https://resourcepack.net/
+https://www.9minecraft.net
+
+Các mods cần tải: 
+Minimap: https://www.curseforge.com/minecraft/mc-mods/journeymap/files
+
+Shader cho đồ hoạ: 
+https://shadersmods.com/complementary-shaders/
+https://shadersmods.com/astralex-shaders/
+https://shadersmods.com/capttatsus-bsl-shaders-mod/
+https://shadersmods.com/sildurs-shaders-mod/
+https://www.curseforge.com/minecraft/customization/kappa-shader-by-rre36/files
+https://continuum.graphics/continuum-shaders/
+
+ResourcePack creatorpack: https://creatorlabs.net/downloads/creatorpack/
+ResourcePack 3D-Sword: https://creatorlabs.net/downloads/3d-swords/
+ResourcePack 3D Noteblock Display: https://creatorlabs.net/downloads/3d-noteblock-displays/
+
+Mods súng: https://www.9minecraft.net/modern-warfare-mod/?fbclid=IwAR2AubPlBcD7WJ7l0LhKaq6s7jy_VBTDgDJZfbo4sTziTKJidvlNoDCj-1w
+
+Lần lượt cài đặt file 1 và 2.
+File 3 và các file mods tải từ 4 bỏ vào thư mục mods.
+Các file shader tải từ 4 thì bỏ vào thư mục shaderpacks.
+
+Di chuyển / thay đổi thư mục gốc .minecraft trong %appdata% vào bất kì ổ đĩa nào khác:
+Cách 1: https://www.youtube.com/watch?v=Fb1GeT9sCTU
+Cách 2: https://www.youtube.com/watch?v=KWAh5kBf7NU
+		https://www.youtube.com/watch?v=1g3QyeqpfdY
+		https://www.youtube.com/watch?v=TjKv323iOdA
