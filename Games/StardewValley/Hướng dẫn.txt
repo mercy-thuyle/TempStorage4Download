@@ -20,6 +20,7 @@
 16. Tải NPC Map Location: https://www.nexusmods.com/stardewvalley/mods/239
 17. Tải Gift Taste Helper: https://www.nexusmods.com/stardewvalley/mods/229
 18. Tải UI Info Suite: https://www.nexusmods.com/stardewvalley/mods/1150
+	Tải UI info Suite Vietnamese: https://www.nexusmods.com/stardewvalley/mods/9209 (copy es.json)
 19. Tải Suitcase Record Player: https://www.nexusmods.com/stardewvalley/mods/4794 (mời Harvey vào và trải nghiệm)
 20. Tải Stardew Valley Expanded (tuỳ chọn): https://www.nexusmods.com/stardewvalley/mods/3753?tab=files
 	Tải Expanded Preconditions Utility: https://www.nexusmods.com/stardewvalley/mods/6529
