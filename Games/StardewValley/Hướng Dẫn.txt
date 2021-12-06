@@ -1,0 +1,21 @@
+1. Giải nén thư mục Stardew.Valley.v1.5.5.rar
+2. Nhấp đúp chuột vào Stardew Valley.exe
+3. Chọn Yes và tiến hành tải, cài đặt .NET 5
+4. Giải nén thư mục SMAPI 3.13.1-2400-3-13-1-1638327616.rar
+5. Nhấp đúp chuột vào install on Windows.bat, cửa sổ màn hình đen sẽ xuất hiện
+6. Copy đường dẫn game có chứa file Stardew Valley.dll trong thư mục game vừa giải nén và nhấn Enter
+	Đường dẫn có dạng gần giống như: E:\Trò Chơi\StardewValley\Stardew.Valley.v1.5.5\Stardew.Valley.v1.5.5
+7. Nhấp số 1 và nhấn Enter
+8. Tắt cửa số mành hình đen
+9. Giải nén thư mục Mods.zip
+10. Vào thư mục game Stardew Valley đã giải nén bên trên
+11. Tìm và xoá thư mục Mods có sẵn của game
+12. Cut/Paste thư mục Mods đã giải nén bước 9 thay thế
+13. Nhấp đúp vào StardewModdingAPI.exe
+14. Trong giao diện chờ của game, nhấp chuột vào biểu tượng phía trên dấu chấm hỏi
+15. Chọn ngôn ngữ Tiếng Việt
+16. Copy địa chỉ ip của host trong Radmin
+17. Chọn Chơi Mạng/Coop
+18. Dán địa chỉ IP vào ô
+19. Tham gia LAN
+20. Trải nghiệm game
